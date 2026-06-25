@@ -1,0 +1,286 @@
+2026-06-23 17:42:32 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:32 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:33 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 253.82ms
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:33 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:33 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 217.13ms
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:33 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:33 - student_result_mng - WARNING - [auth.py:23] - Registration failed: Username 'testuser' already exists
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 400 - Completed in: 2.76ms
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:33 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='user1', email='same@example.com'
+2026-06-23 17:42:33 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='user1', id=1
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 237.01ms
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:33 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='user2', email='same@example.com'
+2026-06-23 17:42:33 - student_result_mng - WARNING - [auth.py:34] - Registration failed: Email 'same@example.com' already exists
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 400 - Completed in: 2.78ms
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 422 - Completed in: 30.95ms
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 422 - Completed in: 1.15ms
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 422 - Completed in: 1.46ms
+2026-06-23 17:42:33 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:33 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 228.83ms
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 219.57ms
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 217.92ms
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:34 - student_result_mng - WARNING - [auth.py:75] - Login failed: Incorrect password for username 'testuser'
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 401 - Completed in: 212.19ms
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'ghost'
+2026-06-23 17:42:34 - student_result_mng - WARNING - [auth.py:65] - Login failed: Username 'ghost' not found
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 401 - Completed in: 4.08ms
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 221.21ms
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 422 - Completed in: 2.89ms
+2026-06-23 17:42:34 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:34 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:35 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 213.11ms
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:35 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:35 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 208.88ms
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /auth/me
+2026-06-23 17:42:35 - student_result_mng - INFO - [auth.py:95] - User profile fetched: username='testuser'
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:25] - Completed request: GET /auth/me - Status: 200 - Completed in: 2.52ms
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /auth/me
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:25] - Completed request: GET /auth/me - Status: 401 - Completed in: 0.64ms
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /auth/me
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:25] - Completed request: GET /auth/me - Status: 401 - Completed in: 1.10ms
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:35 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:35 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 217.08ms
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:35 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:35 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 209.74ms
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:35 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS001'
+2026-06-23 17:42:35 - student_result_mng - INFO - [student.py:40] - Student registered successfully: roll_no='CS001', id=1
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 200 - Completed in: 14.18ms
+2026-06-23 17:42:35 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:35 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 222.32ms
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 218.45ms
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:36 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS001'
+2026-06-23 17:42:36 - student_result_mng - INFO - [student.py:40] - Student registered successfully: roll_no='CS001', id=1
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 200 - Completed in: 6.36ms
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:36 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS001'
+2026-06-23 17:42:36 - student_result_mng - WARNING - [student.py:26] - Student registration failed: Roll number 'CS001' already exists
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 400 - Completed in: 2.80ms
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 220.68ms
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 213.28ms
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 422 - Completed in: 2.00ms
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 401 - Completed in: 1.41ms
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 217.84ms
+2026-06-23 17:42:36 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:36 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:37 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 213.64ms
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/all-students
+2026-06-23 17:42:37 - student_result_mng - INFO - [student.py:49] - User 'testuser' requested all students list
+2026-06-23 17:42:37 - student_result_mng - INFO - [student.py:51] - Retrieved 0 students
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/all-students - Status: 200 - Completed in: 2.76ms
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:37 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:37 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 220.64ms
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:37 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:37 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 217.92ms
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:37 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS001'
+2026-06-23 17:42:37 - student_result_mng - INFO - [student.py:40] - Student registered successfully: roll_no='CS001', id=1
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 200 - Completed in: 5.92ms
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:37 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS002'
+2026-06-23 17:42:37 - student_result_mng - INFO - [student.py:40] - Student registered successfully: roll_no='CS002', id=2
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 200 - Completed in: 5.56ms
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/all-students
+2026-06-23 17:42:37 - student_result_mng - INFO - [student.py:49] - User 'testuser' requested all students list
+2026-06-23 17:42:37 - student_result_mng - INFO - [student.py:51] - Retrieved 2 students
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/all-students - Status: 200 - Completed in: 2.96ms
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/all-students
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/all-students - Status: 401 - Completed in: 1.25ms
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:37 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:37 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 217.53ms
+2026-06-23 17:42:37 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:37 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:38 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 211.74ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS001'
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:40] - Student registered successfully: roll_no='CS001', id=1
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 200 - Completed in: 5.63ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/all-students
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:49] - User 'testuser' requested all students list
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:51] - Retrieved 1 students
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/all-students - Status: 200 - Completed in: 2.27ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/1
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:60] - User 'testuser' requested details for student_id=1
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/1 - Status: 200 - Completed in: 3.11ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:38 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:38 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 217.53ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:38 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:38 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 214.41ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/999999
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:60] - User 'testuser' requested details for student_id=999999
+2026-06-23 17:42:38 - student_result_mng - WARNING - [student.py:63] - Student fetch failed: student_id=999999 not found
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/999999 - Status: 404 - Completed in: 2.78ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/1
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/1 - Status: 401 - Completed in: 1.57ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:38 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:38 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 218.31ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:38 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:38 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 229.23ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS001'
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:40] - Student registered successfully: roll_no='CS001', id=1
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 200 - Completed in: 6.51ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/all-students
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:49] - User 'testuser' requested all students list
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:51] - Retrieved 1 students
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/all-students - Status: 200 - Completed in: 2.85ms
+2026-06-23 17:42:38 - student_result_mng - INFO - [main.py:20] - Incoming request: PUT /student/1
+2026-06-23 17:42:38 - student_result_mng - INFO - [student.py:77] - User 'testuser' is updating student_id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:97] - Student updated successfully: student_id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: PUT /student/1 - Status: 200 - Completed in: 6.79ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:39 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:39 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 220.52ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:39 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:39 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 211.89ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS001'
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:40] - Student registered successfully: roll_no='CS001', id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 200 - Completed in: 5.98ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/all-students
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:49] - User 'testuser' requested all students list
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:51] - Retrieved 1 students
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/all-students - Status: 200 - Completed in: 2.59ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: PUT /student/1
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:77] - User 'testuser' is updating student_id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:97] - Student updated successfully: student_id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: PUT /student/1 - Status: 200 - Completed in: 5.19ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:39 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:39 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 227.70ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:39 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:39 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 218.81ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS001'
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:40] - Student registered successfully: roll_no='CS001', id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 200 - Completed in: 7.87ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/all-students
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:49] - User 'testuser' requested all students list
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:51] - Retrieved 1 students
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/all-students - Status: 200 - Completed in: 2.60ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: PUT /student/1
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:77] - User 'testuser' is updating student_id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [student.py:97] - Student updated successfully: student_id=1
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:25] - Completed request: PUT /student/1 - Status: 200 - Completed in: 6.29ms
+2026-06-23 17:42:39 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:39 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:40 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 229.95ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:40 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:40 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 212.24ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: PUT /student/999999
+2026-06-23 17:42:40 - student_result_mng - INFO - [student.py:77] - User 'testuser' is updating student_id=999999
+2026-06-23 17:42:40 - student_result_mng - WARNING - [student.py:80] - Student update failed: student_id=999999 not found
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: PUT /student/999999 - Status: 404 - Completed in: 2.90ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: PUT /student/1
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: PUT /student/1 - Status: 401 - Completed in: 1.42ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:40 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:40 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 215.59ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:40 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:40 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 212.89ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /student/register
+2026-06-23 17:42:40 - student_result_mng - INFO - [student.py:19] - User 'testuser' is attempting to register student with roll_no='CS001'
+2026-06-23 17:42:40 - student_result_mng - INFO - [student.py:40] - Student registered successfully: roll_no='CS001', id=1
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: POST /student/register - Status: 200 - Completed in: 8.34ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/all-students
+2026-06-23 17:42:40 - student_result_mng - INFO - [student.py:49] - User 'testuser' requested all students list
+2026-06-23 17:42:40 - student_result_mng - INFO - [student.py:51] - Retrieved 1 students
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/all-students - Status: 200 - Completed in: 2.83ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: DELETE /student/1
+2026-06-23 17:42:40 - student_result_mng - INFO - [student.py:106] - User 'testuser' is deleting student_id=1
+2026-06-23 17:42:40 - student_result_mng - INFO - [student.py:116] - Student deleted successfully: student_id=1
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: DELETE /student/1 - Status: 200 - Completed in: 5.21ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: GET /student/1
+2026-06-23 17:42:40 - student_result_mng - INFO - [student.py:60] - User 'testuser' requested details for student_id=1
+2026-06-23 17:42:40 - student_result_mng - WARNING - [student.py:63] - Student fetch failed: student_id=1 not found
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:25] - Completed request: GET /student/1 - Status: 404 - Completed in: 2.97ms
+2026-06-23 17:42:40 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/register
+2026-06-23 17:42:40 - student_result_mng - INFO - [auth.py:16] - Attempting to register user: username='testuser', email='test@example.com'
+2026-06-23 17:42:41 - student_result_mng - INFO - [auth.py:48] - User registered successfully: username='testuser', id=1
+2026-06-23 17:42:41 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/register - Status: 201 - Completed in: 222.46ms
+2026-06-23 17:42:41 - student_result_mng - INFO - [main.py:20] - Incoming request: POST /auth/login
+2026-06-23 17:42:41 - student_result_mng - INFO - [auth.py:57] - Login attempt for username: 'testuser'
+2026-06-23 17:42:41 - student_result_mng - INFO - [auth.py:85] - Login successful: User 'testuser' logged in
+2026-06-23 17:42:41 - student_result_mng - INFO - [main.py:25] - Completed request: POST /auth/login - Status: 200 - Completed in: 219.55ms
+2026-06-23 17:42:41 - student_result_mng - INFO - [main.py:20] - Incoming request: DELETE /student/999999
+2026-06-23 17:42:41 - student_result_mng - INFO - [student.py:106] - User 'testuser' is deleting student_id=999999
+2026-06-23 17:42:41 - student_result_mng - WARNING - [student.py:109] - Student deletion failed: student_id=999999 not found
+2026-06-23 17:42:41 - student_result_mng - INFO - [main.py:25] - Completed request: DELETE /student/999999 - Status: 404 - Completed in: 3.02ms
+2026-06-23 17:42:41 - student_result_mng - INFO - [main.py:20] - Incoming request: DELETE /student/1
+2026-06-23 17:42:41 - student_result_mng - INFO - [main.py:25] - Completed request: DELETE /student/1 - Status: 401 - Completed in: 1.31ms

@@ -1,0 +1,11 @@
+.git
+__pycache__/
+.venv/
+.vscode/
+uv.lock
+uv.toml
+.env
+*__pycache__/
+*.pyc
+
+.dockerignore
